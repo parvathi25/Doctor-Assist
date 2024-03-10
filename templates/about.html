@@ -2,7 +2,35 @@
 
 {% block content %}
 <div class="content">
-    <h2>About Doctor Assist</h2>
-    <p>Details about the website go here...</p>
+    <h1 style="font-family: 'Marcellus';">About PulsEd</h1>
+    <p style="margin-bottom: 30px;">At PulsEd, we believe that knowledge is the key to managing your health effectively.<br>
+        Our platform is designed to empower patients by providing curated insights into arrhythmias.<br>
+        Take control of your well-being with personalized information, comparisons, and in-depth content<br>
+        tailored to your health data. PulsEd is more than just a data analysis tool. We curate <br>
+        relevant and up-to-date information about arrhythmias, presenting it in a way that is accessible <br>
+        and meaningful to patients.</p>
+
+    <h1 style="font-family: 'Marcellus'; margin-bottom: 20px;">Our Team</h1>
+    <div class="team-members">
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='Parvathi.jpg') }}" alt="Team Member 1">
+            <h3 style="font-family: 'Marcellus';">Parvathi Vinod</h3>
+        </div>
+
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='Malavika.jpg') }}" alt="Team Member 2">
+            <h3 style="font-family: 'Marcellus';">Malavika R Nambiar</h3>
+        </div>
+
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='Lucy.jpg') }}" alt="Team Member 3">
+            <h3 style="font-family: 'Marcellus';">Lucy Maria Binod</h3>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Contact us at: pulsed@gmail.com | Phone: +91 8301841695, +91 7306152610, +91 7558836996</p>
+    </footer>
 </div>
 {% endblock %}
+

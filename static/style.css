@@ -1,15 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #002258; /* Blue */
+    color: #fff; /* White */
     padding: 20px;
     text-align: center;
 }
+
 
 nav ul {
     list-style-type: none;
@@ -19,28 +20,86 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    list-style: none; /* Reset default list styles */
 }
+
 
 main {
     padding: 20px;
 }
 
-footer {
-    background-color: #4CAF50;
-    color: white;
+/* Apply styles to individual team members */
+.team-member {
     text-align: center;
-    padding: 10px;
+    width: 30%; /* Adjust as needed based on your design */
+    margin: 10px; /* Add margin for spacing between team members */
+}
+
+/* Align team members in a row with space between them */
+.team-members {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for team member images */
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Optionally, add a border-radius for rounded images */
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+
+footer {
+    background-color: #002258; /* Blue */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 0px;
+    position: relative; /* Change position to relative */
+    clear: both; /* Add this property */
+    width: 100%;
+    margin-top: 25px; /* Adjust the margin as needed */
+}
+
+.fixed-footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-.hero {
-    background-color: #f2f2f2;
-    padding: 50px 20px;
+    background-color: #002258; /* Add some transparency to the footer */
+    padding: 10px;
     text-align: center;
 }
 
-.content {
-    padding: 20px;
+
+.hero {
+    padding: 50px 20px;
+    text-align: center;
+    background: url("/static/dude.avif") center center fixed;
+    background-size: cover;
 }
+
+
+.content {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+    margin-top: 0px;
+    text-align: center; /* Center the text within the content */
+}
+
+
+/* Professional button styles */
+button {
+    background-color: #002258; /* Blue */
+    color: #fff; /* White */
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+

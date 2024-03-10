@@ -1,18 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Doctor Assist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulsEd</title>
+    
+    <!-- Existing stylesheet link -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Styles for the cute navigation buttons -->
+    <style>
+        .nav-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            color: #001f3f; /* Navy blue */
+            text-decoration: none;
+            border: 2px solid #001f3f; /* Navy blue border */
+            border-radius: 10px; /* Adjust the border radius for a cute appearance */
+            cursor: pointer; /* Add a pointer cursor on hover */
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+
+        .nav-button:hover {
+            background-color: #001f3f; /* Navy blue on hover */
+            color: #ffffff; /* White on hover */
+            transform: scale(1.05); /* Add a slight scale effect on hover */
+        }
+
+        /* Display li elements as inline-block to place them side by side */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px; /* Adjust the margin between buttons */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Doctor Assist</h1>
+    <header style="color: #ffffff;">
+        <h1 style="font-size: 40px; color: #ffffff;" class="larger-header">Doctor Assist</h1>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a class="nav-button" href="/">Home</a></li>
+                <li><a class="nav-button" href="/about">About</a></li>
+                <li><a class="nav-button" href="/services">Services</a></li>
+                <li><a class="nav-button" href="/contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -22,7 +58,7 @@
         {% endblock %}
     </main>
 
-    <footer>
+    <footer style="color: #ffffff;" class="fixed-footer">
         <p>Contact us at: doctorassist@gmail.com | Phone: +91 8301841695, +91 7306152610, +91 7558836996</p>
     </footer>
 </body>
