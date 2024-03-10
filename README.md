@@ -53,4 +53,5 @@ Explore curated content that compares and contrasts different aspects of your ar
 
 If you encounter any issues, have questions, or need support, feel free to reach out to our team. Visit the [Contact Page](#) for more information.
 
+## We intend to develop this website further to provide more curated information, visual comparisons and a functionality to detect s1, s2, s3 and s4 sounds which helps in the detection of disrders of the heart valves.
 ---
