@@ -29,14 +29,14 @@ Before using **Doctor Assist**, make sure you have the following:
 
 ### Installation
 
-No installation is required for **Doctor Assist** as it is a web-based platform. Simply navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to get started.
+No installation is required for **Doctor Assist** as it is a web-based platform. Simply navigate to [doctor-assist.onrender.com](https://doctor-assist.onrender.com/) to get started.
 
 1. Navigate to the "Services" Page.
 2. Upload Health Data.
 
 ## Uploading Health Data
 
-Learn how to upload your health data to [Doctor Assist](http://127.0.0.1:5000/):
+Learn how to upload your health data to [Doctor Assist](https://doctor-assist.onrender.com/):
 
 1. Go to the "Services" section.
 2. Select and upload your PPG, ECG, and PCG files.
@@ -51,7 +51,7 @@ Explore curated content that compares and contrasts different aspects of your ar
 
 ## Contact and Support
 
-If you encounter any issues, have questions, or need support, feel free to reach out to our team. Visit the [Contact Page](#) for more information.
+If you encounter any issues, have questions, or need support, feel free to reach out to our team. Visit the [Contact Page](https://doctor-assist.onrender.com/contact) for more information.
 
-## We intend to develop this website further to provide more curated information, visual comparisons and a functionality to detect s1, s2, s3 and s4 sounds which helps in the detection of disrders of the heart valves.
+# We intend to develop this website further to provide more curated information, visual comparisons and a functionality to detect s1, s2, s3 and s4 sounds which helps in the detection of disrders of the heart valves.
 ---
